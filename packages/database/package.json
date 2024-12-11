@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "@chi/database",
+  "license": "ISC",
+  "types": "./default/dist/index.d.ts",
+  "main": "./default/dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./default/dist/index.js",
+      "types": "./default/dist/index.d.ts",
+      "import": "./default/dist/index.js"
+    },
+    "./store": {
+      "require": "./store/dist/index.js",
+      "types": "./store/dist/index.d.ts",
+      "import": "./store/dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@db/default": "workspace:*",
+    "@db/store": "workspace:*"
+  }
+}

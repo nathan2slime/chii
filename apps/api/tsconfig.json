@@ -1,0 +1,12 @@
+{
+  "extends": ["@chi/tsconfig/nestjs.json"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "sourceMap": false,
+    "outDir": "dist",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  }
+}

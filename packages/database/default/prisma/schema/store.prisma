@@ -1,0 +1,6 @@
+model Store {
+    id    String @id @default(cuid())
+    email String
+    phone String
+    slug  String
+}
